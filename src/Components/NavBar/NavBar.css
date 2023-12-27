@@ -9,11 +9,10 @@ div.topBar {
 a {
   display: flex;
   background-color: #052049;
+  height: inherit;
   color: #fff;
-  width: 20%;
-  height: 100%;
-  padding: inherit;
-  margin: inherit;
+  padding: 0%;
+  margin: 0%;
   justify-content: left;
 }
 
@@ -22,9 +21,9 @@ ul {
   background-color: #052049;
   color: #fff;
   list-style: none;
-  padding: inherit;
-  margin: inherit;
-  width: 80%;
+  padding: 0%;
+  margin: 0%;
+  width: 100%;
   height: 100%;
   justify-content: right;
 }
@@ -42,4 +41,7 @@ ul li a {
   text-decoration: none;
   justify-content: center;
   align-items: center;
+  &:hover {
+    opacity: 50%;
+  }
 }
