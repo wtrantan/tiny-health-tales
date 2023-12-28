@@ -5,7 +5,7 @@ import "./Home.css";
 export default function Home() {
   return (
     <>
-      <NavBar />
+      <NavBar page="Home" />
       <div className="Content">Content for Main Page Here</div>
     </>
   );

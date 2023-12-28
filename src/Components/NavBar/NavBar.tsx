@@ -1,21 +1,39 @@
 import React from "react";
 import "./NavBar.css";
-import logo from "./TinyHealthTalesLogo.png";
+import iconFull from "./TinyHealthTalesLogo.png";
+import iconMinimized from "./THT.png";
+import { useState } from "react";
 
-export default function NavBar() {
-  const pages = ["Courses", "About", "Contact"];
+interface Props {
+  page: string;
+}
+
+export default function NavBar(prop: Props) {
+  let active = prop.page;
+  const pages = [
+    "Home",
+    "About Us",
+    "Videos",
+    "Flyers",
+    "Health Blog",
+    "Contact Us",
+  ];
   return (
-    <div className="topBar">
-      <a href="/Home">
-        <img src={logo} alt="Logo" />
-      </a>
-      <ul>
+    <>
+      <div className="upper-bar">
+        <img className="icon" src={iconMinimized} />
+        <div className="name">
+          <h1>Tiny Health Tales</h1>
+          <h4>Tiny Narratives, Mighty Health Lessons</h4>
+        </div>
+      </div>
+      <ul className="lower-bar">
         {pages.map((page) => (
-          <li key={page}>
+          <li className={active === page ? "active" : ""}>
             <a href={`/${page}`}>{page}</a>
           </li>
         ))}
       </ul>
-    </div>
+    </>
   );
 }

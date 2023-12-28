@@ -1,40 +1,51 @@
-div.topBar {
+div.upper-bar {
   display: flex;
-  width: 100%;
-  height: 3.5em;
+  height: 5rem;
+}
+
+div.upper-bar img.icon {
+  width: 5rem;
+  height: 5rem;
+}
+
+div.upper-bar div.name {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+div.upper-bar div.name h1,
+h4 {
   padding: 0%;
   margin: 0%;
 }
 
-a {
-  display: flex;
-  background-color: #052049;
-  height: inherit;
-  color: #fff;
-  padding: 0%;
-  margin: 0%;
-  justify-content: left;
-}
-
-ul {
+ul.lower-bar {
   display: flex;
   background-color: #052049;
   color: #fff;
   list-style: none;
-  padding: 0%;
+  padding: 0rem 1rem;
   margin: 0%;
-  width: 100%;
-  height: 100%;
+  height: 3.5rem;
   justify-content: right;
 }
 
-ul li {
-  width: 6em;
+ul.lower-bar li {
+  width: 100%;
   height: 100%;
+  background-color: #052049;
 }
 
-ul li a {
+ul.lower-bar li.active {
+  width: 100%;
+  height: 100%;
+  background-color: #007bff;
+}
+
+ul.lower-bar li a {
   display: flex;
+  font-size: 1.25rem;
   width: 100%;
   height: 100%;
   color: white;
@@ -42,6 +53,6 @@ ul li a {
   justify-content: center;
   align-items: center;
   &:hover {
-    opacity: 50%;
+    background-color: #007bff;
   }
 }
