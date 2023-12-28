@@ -21,12 +21,10 @@ export default function NavBar(prop: Props) {
   return (
     <>
       <div className="upper-bar">
-        <img className="icon" src={iconMinimized} />
-        <div className="name">
-          <h1>Tiny Health Tales</h1>
-          <h4>Tiny Narratives, Mighty Health Lessons</h4>
-        </div>
+        <img className="icon" src={iconFull} />
+        <h4>Tiny Narratives, Mighty Health Lessons</h4>
       </div>
+
       <ul className="lower-bar">
         {pages.map((page) => (
           <li className={active === page ? "active" : ""}>
