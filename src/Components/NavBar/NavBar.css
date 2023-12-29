@@ -43,6 +43,7 @@ ul.lower-bar li.active {
 
 ul.lower-bar li a {
   display: flex;
+  font-family: "Luckiest Guy";
   font-size: 1.25rem;
   width: 100%;
   height: 100%;

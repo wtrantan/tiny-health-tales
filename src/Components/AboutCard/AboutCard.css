@@ -1,0 +1,49 @@
+div.full-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 3rem;
+  padding: 0%;
+}
+
+div.full-card div.card {
+  padding: 0%;
+}
+
+div.full-card img {
+  display: flex;
+  width: 20rem;
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+  margin: 0rem 2rem;
+  padding: 0%;
+}
+
+div.full-card div.card div.name {
+  display: flex;
+  font-size: 26px;
+  font-family: "Luckiest Guy";
+  justify-content: center;
+  align-items: center;
+}
+
+div.full-card p {
+  display: flex;
+  font-family: "Luckiest Guy";
+  font-size: 26px;
+  margin: 0%;
+  padding: 0%;
+  width: 50rem;
+  padding: 0rem 2rem;
+  text-align: justify;
+}
+
+div.full-card div.left,
+div.right {
+  display: flex;
+}
+
+div.inactive {
+  display: none;
+}
