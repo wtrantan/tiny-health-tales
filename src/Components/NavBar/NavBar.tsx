@@ -1,6 +1,6 @@
 import React from "react";
 import "./NavBar.css";
-import iconFull from "./TinyHealthTalesLogo.png";
+import iconFull from "./THTLogoF.png";
 import iconMinimized from "./THT.png";
 import { useState } from "react";
 
