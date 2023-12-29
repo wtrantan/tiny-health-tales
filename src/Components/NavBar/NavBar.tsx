@@ -21,7 +21,6 @@ export default function NavBar(prop: Props) {
     <>
       <div className="upper-bar">
         <img className="icon" src={iconFull} />
-        <h4>Tiny Narratives, Mighty Health Lessons</h4>
       </div>
 
       <ul className="lower-bar">
