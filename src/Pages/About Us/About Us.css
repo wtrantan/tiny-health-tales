@@ -2,3 +2,10 @@ div.divider {
   border: 2px solid black;
   margin: 0rem 25rem;
 }
+
+.cardRows {
+  display: flex;
+  flex-flow: row;
+  position: sticky;
+  top: 0;
+}

@@ -1,49 +1,62 @@
-div.full-card {
+.gt {
+  display: flex;
+  justify-content: center;
+  width: 1.625rem;
+  color: white;
+  font-weight: 1000;
+}
+
+.rotateButton {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2rem 3rem;
-  padding: 0%;
+  rotate: 90deg;
 }
 
-div.full-card div.card {
-  padding: 0%;
+.inactive {
+  display: none;
 }
 
-div.full-card img {
+.activeCard {
   display: flex;
-  width: 20rem;
-  border: 2px solid black;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
-  margin: 0rem 2rem;
-  padding: 0%;
+  background-color: #052049;
+  color: white;
+  text-decoration: none;
+  &:active {
+    color: black;
+  }
 }
 
-div.full-card div.card div.name {
+.active {
+  background-color: #052049;
+  color: white;
+  height: 100%;
+  justify-content: right;
+  align-items: right;
+}
+
+div.all {
   display: flex;
-  font-size: 26px;
-  font-family: "Luckiest Guy";
-  justify-content: center;
+  width: 15rem;
+  flex-flow: column;
+  margin: 5rem;
   align-items: center;
 }
 
-div.full-card p {
-  display: flex;
-  font-family: "Luckiest Guy";
-  font-size: 26px;
+.picture {
+  border: 1px solid black;
+}
+.picture,
+.name,
+.activeCard,
+.inactive,
+p {
+  width: 15rem;
+  font-family: "Times New Roman";
+  font-size: 1.4rem;
   margin: 0%;
   padding: 0%;
-  width: 50rem;
-  padding: 0rem 2rem;
-  text-align: justify;
-}
-
-div.full-card div.left,
-div.right {
-  display: flex;
-}
-
-div.inactive {
-  display: none;
+  color: black;
 }

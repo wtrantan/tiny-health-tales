@@ -1,31 +1,26 @@
 import React from "react";
+import { useState } from "react"
 import "./AboutCard.css";
 
 interface Props {
   name: string;
   information: string;
   image: string;
-  direction: string;
 }
 
 export default function AboutCard(prop: Props) {
+  const [active, setActive] = useState(false);
+
   return (
-    <>
-      <div className="full-card">
-        <div className={prop.direction === "left" ? "left" : "inactive"}>
-          <div className="card">
-            <img src={prop.image}></img>
-            <div className="name">{prop.name}</div>
-          </div>
+    <div className="all">
+      <img className="picture" src={prop.image} />
+      <h1 className="name">{prop.name}</h1>
+      <a href="javascript:void(0)" className="activeCard" onClick={() => setActive(!active)}>
+        <div className={active ? "rotateButton" : "activeCard"}>
+          <p className="gt">&gt;</p>
         </div>
-        <p>{prop.information}</p>
-        <div className={prop.direction === "right" ? "right" : "inactive"}>
-          <div className="card">
-            <img src={prop.image}></img>
-            <div className="name">{prop.name}</div>
-          </div>
-        </div>
-      </div>
-    </>
+      </a>
+      <p className={active ? "active" : "inactive"}>{prop.information}</p>
+    </div>
   );
 }
