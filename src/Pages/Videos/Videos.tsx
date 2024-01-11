@@ -6,7 +6,7 @@ export default function Videos() {
   return (
     <>
       <NavBar page="Videos" />
-      <div className="Content">Content for Videos Page Here</div>
+      
     </>
   );
 }
