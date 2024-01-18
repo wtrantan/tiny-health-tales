@@ -1,0 +1,7 @@
+.dark {
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .dark:hover {
+    filter: brightness(50%);
+  }

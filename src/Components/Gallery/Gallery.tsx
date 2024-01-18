@@ -21,7 +21,7 @@ export default function Gallery(){
           // Create individual flyer items using Bootstrap cards
           <div className="col-md-4" key={flyer.id}>
             <div className="card mb-4">
-              <img src={flyer.imageUrl} className="card-img-top" alt={flyer.title} />
+              <img src={flyer.imageUrl} className="dark card-img-top" alt={flyer.title} />
               <div className="card-body">
                 <h5 className="card-title">{flyer.title}</h5>
                 {/* Add more details or actions as needed */}
