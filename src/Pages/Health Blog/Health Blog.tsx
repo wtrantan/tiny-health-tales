@@ -5,7 +5,7 @@ import "./Health Blog.css";
 export default function Health_Blog() {
   return (
     <>
-      <NavBar page="Health Blog" />
+      <NavBar page="News" />
       <div className="Content">Content for Health Blog Page Here</div>
     </>
   );

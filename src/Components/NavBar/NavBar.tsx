@@ -14,7 +14,7 @@ export default function NavBar(prop: Props) {
     "About Us",
     "Videos",
     "Flyers",
-    "Health Blog",
+    "News",
     "Contact Us",
   ];
   return (

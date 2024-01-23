@@ -20,7 +20,7 @@ export default function App() {
         <Route path="About Us" element={<About_Us />} />
         <Route path="Videos" element={<Videos />} />
         <Route path="Flyers" element={<Flyers />} />
-        <Route path="Health Blog" element={<Health_Blog />} />
+        <Route path="News" element={<Health_Blog />} />
         <Route path="Contact Us" element={<Contact_Us />} />
       </Routes>
     </BrowserRouter>
