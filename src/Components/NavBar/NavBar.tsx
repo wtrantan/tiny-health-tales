@@ -1,6 +1,6 @@
 import React from "react";
 import "./NavBar.css";
-import iconFull from "./THTLogoF.png";
+import iconFull from "./THTLogoDraft.png";
 import { useState } from "react";
 
 interface Props {
