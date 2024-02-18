@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../../Components/Footer/Footer.tsx";
 import NavBar from "../../Components/NavBar/NavBar.tsx";
 import "./Flyers.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -14,6 +15,7 @@ export default function Flyers() {
       <Gallery/>
     </div>
     </body>
+    <Footer/>
     </>
   );
 }

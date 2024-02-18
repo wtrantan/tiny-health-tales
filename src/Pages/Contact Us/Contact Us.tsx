@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "../../Components/NavBar/NavBar.tsx";
+import Footer from "../../Components/Footer/Footer.tsx";
 import "./Contact Us.css";
 
 export default function Contact_Us() {
@@ -7,6 +8,7 @@ export default function Contact_Us() {
     <>
       <NavBar page="Contact Us" />
       <div className="Content">Content for Contact Us Page Here</div>
+      <Footer/>
     </>
   );
 }
