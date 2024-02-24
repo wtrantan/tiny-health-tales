@@ -7,9 +7,9 @@ export default function Home() {
   return (
     <>
       <NavBar page="Home" />
-      <Carousels/>
+      <Carousels />
       <div className="Content">Content for Main Page Here</div>
-      <Footer/>
+      <Footer />
     </>
   );
 }

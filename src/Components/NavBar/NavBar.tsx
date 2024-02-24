@@ -1,6 +1,6 @@
 import React from "react";
 import "./NavBar.css";
-import iconFull from "./THTLogoDraft.png";
+import logoimage from "./THT_logo_v1.png";
 import { useState } from "react";
 
 interface Props {
@@ -11,25 +11,23 @@ export default function NavBar(prop: Props) {
   let active = prop.page;
   const pages = [
     "Home",
-    "About Us",
     "Videos",
     "Flyers",
-    "News",
-    "Contact Us",
+    "About Us"
   ];
   return (
     <>
-      <div className="upper-bar">
-        <img className="icon" src={iconFull} />
+      <div className="NavBar upper">
+        <img className="NavBar upper logo" src={logoimage} />
       </div>
 
-      <ul className="lower-bar">
+      <ul className="NavBar lower">
         {pages.map((page) => (
-          <li className={active === page ? "active" : ""}>
-            <a href={`/${page}`}>{page}</a>
+          <li className={`NavBar lower page`} >
+            <a className={`NavBar lower link ${active === page ? "active" : ""}`} href={`/${page}`}>{page}</a>
           </li>
         ))}
-      </ul>
+      </ul >
     </>
   );
 }
