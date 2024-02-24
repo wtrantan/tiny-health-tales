@@ -1,0 +1,11 @@
+.vid-page{
+    margin: 2rem;
+    text-align: center;
+    
+}
+.vid-page h4{
+    margin-top: 4rem;
+}
+.vid-page img{
+    max-width: 100%;
+}

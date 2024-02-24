@@ -6,6 +6,5 @@ div.divider {
 .cardRows {
   display: flex;
   flex-flow: row;
-  position: sticky;
-  top: 0;
+
 }
