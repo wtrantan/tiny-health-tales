@@ -24,7 +24,7 @@ import ReactDOM from 'react-dom'
                                     <FontAwesomeIcon href="/" target="_blank" className="icon tw" icon={faTwitter}/>
                                     <a href="https://www.instagram.com/tinyhealthtales?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><FontAwesomeIcon className="icon ig" icon={faInstagram}/></a>
                                     <a href="https://www.youtube.com/channel/UC-nTBrcorao43utH9wuXyHQ" target="_blank"><FontAwesomeIcon className="icon yt" icon={faYoutube}/></a>
-                                    <a href="https://www.youtube.com/channel/UC-nTBrcorao43utH9wuXyHQ" target="_blank"><FontAwesomeIcon className="icon tt" icon={faTiktok}/></a>
+                                    <a href="https://www.tiktok.com/@tinyhealthtales_" target="_blank"><FontAwesomeIcon className="icon tt" icon={faTiktok}/></a>
                                    
                                 </div>
                             </div>

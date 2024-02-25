@@ -1,6 +1,7 @@
 
 .bg{
 background-color: #1e4068;
+font-family: "Lato";
 }
 
 .Footer {
@@ -91,6 +92,8 @@ background-color: #1e4068;
   
   .ft-3 i {
     padding-right: 0.5rem;
-    
   }
 
+  .footer a{
+    font-family: "Lato";
+  }
