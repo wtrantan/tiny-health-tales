@@ -36,14 +36,9 @@ import ReactDOM from 'react-dom'
                                     <li className="nav-item">
                                         <a className="" href="/About Us"><FontAwesomeIcon icon={faStar}/> About</a>
                                     </li>
+                                   
                                     <li className="nav-item">
-                                        <a className="" href="/Contact Us"><FontAwesomeIcon icon={faStar}/> Contact Us</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="" href="/"><FontAwesomeIcon icon={faStar}/> Misson Statement</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="" href="/"><FontAwesomeIcon icon={faStar}/> Donate</a>
+                                        <a className="" href="/"><FontAwesomeIcon icon={faStar}/> Support Us</a>
                                     </li>
                                 </ul>
                             </div>

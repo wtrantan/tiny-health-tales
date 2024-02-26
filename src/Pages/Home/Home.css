@@ -30,7 +30,7 @@ padding: 10px 50px;
   height: 1px;
   color: black;
   background-color: #fff; /* Adjust divider color if needed */
-  margin: 0px 50px;
+  margin: 0px 50px 10px;
  
 }
 .Home.see-more {
@@ -60,15 +60,15 @@ padding: 10px 50px;
   display: flex;
   flex-wrap: wrap;
   margin: 10px auto; /* Adds some margin for spacing */
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: center;
  
 
   
 }
 .Home.block1.image-grid img{
- margin: 0 15px; /* Spacing between images */
+ margin: 0 15px 15px; /* Spacing between images */
   width: 30%;
+  height: auto;
   cursor: pointer;
 }
 .Home.block1.image-grid img:hover {

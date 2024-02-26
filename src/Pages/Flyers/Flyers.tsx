@@ -5,7 +5,7 @@ import Footer from "../../Components/Footer/Footer.tsx";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Flyers.css";
 import flu from "../../Assets/Flyers/Flu_Awareness_For_All_FLYER.png";
-import diabetes from "../../Assets/Flyers/All About Diabetes.png"
+import diabetes from "../../Assets/Flyers/All About Diabetes.png";
 
 export default function Flyers() {
   const flyers = [
