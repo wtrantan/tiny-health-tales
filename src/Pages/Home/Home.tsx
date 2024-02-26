@@ -13,7 +13,7 @@ export default function Home() {
       <div className="Content">Content for Main Page Here</div>
         <div className="Home block1">
           <div className="Home title">          
-            <h3>News<button className="Home see-more">See More</button></h3>
+            <h3>News<button className="Home see-more"><a href="/News">See More</a></button></h3>
             <hr className="Home divider"/>
           </div>   
           <div className="Home block1 image-grid">
@@ -24,14 +24,14 @@ export default function Home() {
         </div>
         <div className="Home block2">
           <div className="Home title">          
-            <h3>Videos<button className="Home see-more">See More</button></h3>
+            <h3>Videos<button className="Home see-more"><a href="/Videos">See More</a></button></h3>
           
             <hr className="Home divider"/>
           </div>   
         </div>
         <div className="Home block2">
           <div className="Home title">          
-            <h3>Flyers<button className="Home see-more">See More</button></h3>
+            <h3>Flyers<button className="Home see-more"><a href="/Flyers">See More</a></button></h3>
           
             <hr className="Home divider"/>
           </div>   

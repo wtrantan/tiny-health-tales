@@ -47,6 +47,14 @@ padding: 10px 50px;
   text-decoration: underline;
   color:#2aa5cd;
 }
+.Home a{
+  color:black;
+  text-decoration: none;
+}
+.Home a:hover{
+  color:#2aa5cd;
+  text-decoration: underline;
+}
 .Home.block1.image-grid {
   width: 50%; /* Adjust width as needed */
   display: flex;
