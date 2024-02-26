@@ -31,6 +31,7 @@ function MyVerticallyCenteredModal(prop) {
             className={`modal-content ${prop.identifier ? "image" : "video"}`}
             src={`https://www.youtube.com/embed/${prop.source}?autoplay=1`}
             title={prop.title}
+            modestbranding="1"
           ></iframe>
         }
       </Modal.Body>

@@ -67,20 +67,18 @@ padding: 10px 50px;
 }
 .Home.block1.image-grid img{
  margin: 0 15px 15px; /* Spacing between images */
-  width: 30%;
-  height: auto;
+  width: 250px;
+  height: 250px;
   cursor: pointer;
+  object-fit: cover;
 }
 .Home.block1.image-grid img:hover {
   filter: brightness(70%);
   
 }
-<<<<<<< HEAD
-=======
 .Home.Flyer.body, 
 .Home.Videos.body{
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(auto-fill, 25rem);
 }
->>>>>>> 33deba00c4e3897cd845eb4d7834b2944406bae4

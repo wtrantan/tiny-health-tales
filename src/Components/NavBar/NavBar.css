@@ -4,28 +4,69 @@
   align-items: center;
   background-image: url("./BG_v1.png");
   background-size: 50%;
-  height: 300px;
+  height: 200px;
+  width: 100%;
+  margin: 0;
+
   .logo{
     background-image: none;
     position: absolute;
-    width: 300px;
+    width: 250px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 650px){
+  
+
+  .NavBar.lower{
+
+
+    .hamburger{
+      display: block !important;
+      background-color: transparent;
+      border: none;
+      color: white;
+      cursor: pointer
+      }
+     
+  
+  
+    .link{
+      display: none;
+
+    }
+    
   }
 }
 
 .NavBar.lower{
-  display: grid;
+  display: flex;
   background-color: #1e4068;
   grid-auto-flow: column;
+  justify-content: center;
   list-style: none;
   color: #caeadf;
-  padding: 0px 40px;
+  padding: 0px px;
   margin: 0%;
   height: 50px;
+   
+  
+  .hamburger{
+    margin-left:auto;
+    margin-right: 0;
+    display: none;
+  }
+
+
 
   .page{
     background-color: #1e4068;
-    padding: 0%;
   }
+
+  
+
+
   .link{
     text-decoration: none;
     justify-content: center;
@@ -33,6 +74,8 @@
     font-family: "Lato";
     font-size: 1.25rem;
     font-weight: Bold;
+    padding: 0px 3rem;
+
     &:hover{
       background-color: #2aa5cd;
     }
@@ -41,3 +84,4 @@
     background-color: #3870a6;
   }
 }
+

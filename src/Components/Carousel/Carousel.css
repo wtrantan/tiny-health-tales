@@ -5,6 +5,7 @@
     margin-right: auto;
     background-color: #3870a6;
     cursor:pointer ;
+    position: relative;
 }
 
 #firstImage {

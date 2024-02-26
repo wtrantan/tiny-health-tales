@@ -18,7 +18,7 @@ export default function Videos() {
       <h1 className="Videos title">Welcome to Tiny Health Tales!</h1>
       <div className="Videos body">
         {videos.map((video) => (
-          <Gallery src={video.src} title={video.title} width={video.width} height={video.height} />
+          <Gallery src={video.src} title={video.title} width={video.width} height={video.height}  />
         ))}
       </div>
       <Footer />
