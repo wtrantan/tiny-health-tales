@@ -1,11 +1,13 @@
-.vid-page{
+.Videos.title{
+    display: flex;
+    justify-content: center;
     margin: 2rem;
-    text-align: center;
-    
 }
-.vid-page h4{
-    margin-top: 4rem;
-}
-.vid-page img{
-    max-width: 100%;
+
+.Videos.body{
+    display: grid;
+    justify-content: center;
+    grid-gap: 4rem;
+    grid-template-columns: repeat(auto-fill, 25rem);
+    grid-auto-flow: row;
 }
