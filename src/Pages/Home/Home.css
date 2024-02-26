@@ -75,3 +75,9 @@ padding: 10px 50px;
   filter: brightness(70%);
   
 }
+.Home.Flyer.body, 
+.Home.Videos.body{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, 25rem);
+}
