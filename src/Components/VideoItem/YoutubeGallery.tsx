@@ -22,7 +22,7 @@ const YouTubeEmbedGallery: React.FC = () => {
   return (
     <div className="gallery">
       {videos.map((video) => (
-        <div key={video.id} className="iframe-container ">
+        <div key={video.id} className="iframe-container">
           <iframe
             src={`https://www.youtube.com/embed/${video.id}`}
             title={video.title}
