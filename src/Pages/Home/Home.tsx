@@ -21,20 +21,23 @@ export default function Home() {
   ];
   const flyers = [
     { src: flu, title: 'Flu', width: "100%", height: "100%" },
-    { src: diabetes, title: 'Diabetes', width: "100%", height: "100%" }
+    { src: diabetes, title: 'Diabetes', width: "100%", height: "100%" },
+    { src: diabetes, title: 'Diabetes', width: "100%", height: "100%" },
+    { src: diabetes, title: 'Diabetes', width: "100%", height: "100%" },
+
   ];
 
   return (
     <>
       <NavBar page="Home" />
       <Carousels />
-      <div  className="Home">
-      <div className="Content">Content for Main Page Here</div>
+      <div className="Home">
+        <div className="Content">Content for Main Page Here</div>
         <div className="Home block1">
-          <div className="Home title">          
+          <div className="Home title">
             <h3>News<button className="Home see-more"><a href="/News">See More</a></button></h3>
-            <hr className="Home divider"/>
-          </div>   
+            <hr className="Home divider" />
+          </div>
           <div className="Home block1 image-grid">
           <img src={Event} alt="Image 1 Description"/>
           <img src={Event} alt="Image 2 Description"/>
@@ -42,30 +45,30 @@ export default function Home() {
           </div>
         </div>
         <div className="Home block2">
-          <div className="Home title">          
+          <div className="Home title">
             <h3>Videos<button className="Home see-more"><a href="/Videos">See More</a></button></h3>
-          
-            <hr className="Home divider"/>
-            <div className="Videos body">
-            {videos.map((video) => (
-          <Gallery src={video.src} title={video.title} width={video.width} height={video.height} />
-        ))}
-        </div>
-          </div>   
-        </div>
-        <div className="Home block3">
-          <div className="Home title ">          
-            <h3>Flyers<button className="Home see-more"><a href="/Flyers">See More</a></button></h3>
-            <hr className="Home divider"/>
-            <div className="Flyer body">
-              {flyers.map((flyer) => (
-              <Gallery src={flyer.src} title={flyer.title} width={flyer.width} height={flyer.height} />
+
+            <hr className="Home divider" />
+            <div className="Home Videos body">
+              {videos.map((video) => (
+                <Gallery src={video.src} title={video.title} width={video.width} height={video.height} />
               ))}
-              </div>
-          </div>   
+            </div>
+          </div>
+        </div>
+        <div className="Home block2">
+          <div className="Home title">
+            <h3>Flyers<button className="Home see-more"><a href="/Flyers">See More</a></button></h3>
+            <hr className="Home divider" />
+            <div className="Home Flyer body">
+              {flyers.map((flyer) => (
+                <Gallery src={flyer.src} title={flyer.title} width={flyer.width} height={flyer.height} />
+              ))}
+            </div>
+          </div>
         </div>
       </div>
-    
+
       <Footer />
     </>
   );

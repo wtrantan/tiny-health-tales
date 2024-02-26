@@ -75,3 +75,12 @@ padding: 10px 50px;
   filter: brightness(70%);
   
 }
+<<<<<<< HEAD
+=======
+.Home.Flyer.body, 
+.Home.Videos.body{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, 25rem);
+}
+>>>>>>> 33deba00c4e3897cd845eb4d7834b2944406bae4
