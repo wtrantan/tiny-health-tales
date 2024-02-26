@@ -18,13 +18,11 @@ import ReactDOM from 'react-dom'
                         <div className="row">
                             <div className="col-md-6 col-lg-5 col-12 ft-1">
                                 <h3>Tiny Health Tales</h3>
-                                <p>Footer text here </p>
+                                <p>Tiny Narratives, Mighty Health Lessons</p>
                                 <div className="footer-icons">
-                                    <FontAwesomeIcon href="/" target="_blank" className="icon fb" icon={faFacebookF} />
-                                    <FontAwesomeIcon href="/" target="_blank" className="icon tw" icon={faTwitter}/>
                                     <a href="https://www.instagram.com/tinyhealthtales?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><FontAwesomeIcon className="icon ig" icon={faInstagram}/></a>
                                     <a href="https://www.youtube.com/channel/UC-nTBrcorao43utH9wuXyHQ" target="_blank"><FontAwesomeIcon className="icon yt" icon={faYoutube}/></a>
-                                    <a href="https://www.youtube.com/channel/UC-nTBrcorao43utH9wuXyHQ" target="_blank"><FontAwesomeIcon className="icon tt" icon={faTiktok}/></a>
+                                    <a href="https://www.tiktok.com/@tinyhealthtales_" target="_blank"><FontAwesomeIcon className="icon tt" icon={faTiktok}/></a>
                                    
                                 </div>
                             </div>

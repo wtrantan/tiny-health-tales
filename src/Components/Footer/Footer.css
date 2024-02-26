@@ -1,11 +1,13 @@
 
 .bg{
 background-color: #1e4068;
+font-family: "Lato";
 }
 
 .Footer {
     padding: 2rem 0;
     margin-top: 15rem;
+    
   }
   
   .ft-1 h3 {
@@ -14,6 +16,7 @@ background-color: #1e4068;
     letter-spacing: 2px;
     padding: 0.5rem 0;
     color: #caeadf;
+    
   }
   
 
@@ -22,6 +25,7 @@ background-color: #1e4068;
     padding: 0rem 0.8rem 0;
     font-weight: 500;
     color: #caeadf;
+    font-family: "Lato";
   }
   
   .footer-icons .icon {
@@ -60,16 +64,19 @@ background-color: #1e4068;
 
  .f{
   margin-left: 1px;
+  
  }
   .ft-2 ul {
     list-style: none;
     padding-left: 0;
     margin-left: 2rem;
+    
   }
   
   .ft-2 ul li {
     padding: 0.35rem 0;
     font-weight: 500;
+    
   }
   
   .ft-2 ul a {
@@ -87,10 +94,13 @@ background-color: #1e4068;
     color: #caeadf;
     padding: 0.1rem 0;
     font-size: 1.06rem;
+    font-family: "Lato";
   }
   
   .ft-3 i {
     padding-right: 0.5rem;
-    
   }
 
+  .footer a{
+    font-family: "Lato";
+  }

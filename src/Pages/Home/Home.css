@@ -5,3 +5,73 @@ div.Content {
   justify-content: center;
   align-items: center;
 }
+/*Block 1*/
+
+.Home.block1 {
+  background-color: #ffffff;
+  
+}
+.Home.title{
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+ 
+}
+
+.Home.title h3 {
+font-size: 20px;
+margin: 0;
+font-weight: bold;
+padding: 10px 50px;
+}
+.Home.divider {
+  flex: 0;
+  height: 1px;
+  color: black;
+  background-color: #fff; /* Adjust divider color if needed */
+  margin: 0px 50px;
+ 
+}
+.Home.see-more {
+ text-align: right;
+  font-size: 15px;
+  background-color: transparent;
+  color: #333; /* Adjust button text color if needed */
+  padding: 1px 5px;
+  cursor: pointer;
+  margin-left:5px;
+  border-radius: 5px;
+}
+.Home.see-more:hover {
+  text-decoration: underline;
+  color:#2aa5cd;
+}
+.Home a{
+  color:black;
+  text-decoration: none;
+}
+.Home a:hover{
+  color:#2aa5cd;
+  text-decoration: underline;
+}
+.Home.block1.image-grid {
+  width: 50%; /* Adjust width as needed */
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px auto; /* Adds some margin for spacing */
+  margin-left: auto;
+  margin-right: auto;
+ 
+
+  
+}
+.Home.block1.image-grid img{
+ margin: 0 15px; /* Spacing between images */
+  width: 30%;
+  cursor: pointer;
+}
+.Home.block1.image-grid img:hover {
+  filter: brightness(70%);
+  
+}

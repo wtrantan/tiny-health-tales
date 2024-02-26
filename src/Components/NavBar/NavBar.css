@@ -30,9 +30,9 @@
     text-decoration: none;
     justify-content: center;
     align-items: center;
-    font-family: "Times New Roman";
+    font-family: "Lato";
     font-size: 1.25rem;
-    font-weight: bold;
+    font-weight: Bold;
     &:hover{
       background-color: #2aa5cd;
     }
