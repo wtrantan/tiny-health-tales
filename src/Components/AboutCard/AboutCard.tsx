@@ -3,10 +3,8 @@ import { useState } from "react"
 import "./AboutCard.css";
 
 interface Props {
-  name: string;
-  information: string;
   image: string;
-  title: string;
+  name: string;
   email: string;
 }
 
@@ -14,12 +12,11 @@ export default function AboutCard(prop: Props) {
   const [active, setActive] = useState(false);
 
   return (
-    <div className="all">
-      <img className="picture" src={prop.image} />
-      <h1 className="name">{prop.name}</h1>
-      <h1 className="title">{prop.title}</h1>
-      <h1 className="email">{prop.email}</h1>
-      
+    <div className="AboutCard">
+      <img className="AboutCard picture" src={prop.image} />
+      <h1 className="AboutCard name">{prop.name}</h1>
+      <h1 className="AboutCard email">{prop.email}</h1>
+
     </div>
   );
 }

@@ -1,32 +1,35 @@
-div.divider {
-  border: 2px solid black;
-  margin: 0rem 25rem;
-  
-}
-
-.About.cardRows {
+.About{
   display: flex;
-  flex-flow: row;
-  justify-content: center;
-
-
-
-}
-.About h1{
-  margin-top: 20px;
-  font-size: 1.4rem;
-  text-align: center;
-}
-.About p{
-  font-family: "Lato";
-  font-size: 1rem;
- 
-  margin: 0 25%;
-  padding: 0%;
-  color: black;
-  text-align: center;
-
-}
-.About.background {
-  background-color: #d4ede4;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #caeadf;
+  .title{
+    font-size: xx-large;
+    background-color: #1e4068;
+    margin-bottom: 20px;
+    font-weight:bolder;
+  }
+  .statement{
+    margin: 20px;
+    width: 700px;
+    text-align: left;
+    background-color: #1e4068;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+    border-radius: 10% 20%;
+    padding: 40px;
+    padding-bottom: 60px;
+    font-weight: 650;
+  }
+  .foundertitle{
+    font-weight: bold;
+    font-style: italic;
+  }
+  .founders{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+  }
 }
