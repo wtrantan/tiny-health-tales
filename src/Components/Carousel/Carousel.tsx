@@ -1,6 +1,9 @@
 import React from "react";
 import { useState } from "react";
 import Carousel from 'react-bootstrap/Carousel';
+import Group1 from "../../Assets/News/Group1.jpg";
+import THT from "../../Assets/News/THT_Event.jpg";
+import Group2 from "../../Assets/News/Group1.jpg";
 import FluImage from './Flu.png';
 import WoundImage from './healing-owies.png';
 import './Carousel.css';
@@ -13,7 +16,7 @@ export default function Carousels() {
   return (
     <>
       <div className="back">
-        <Carousel col={3} row={1} activeIndex={index} onSelect={handleSelect}>
+        <Carousel activeIndex={index} onSelect={handleSelect}>
           <Carousel.Item>
             <img id='firstImage' className="" src={FluImage} text="First slide" />
             <Carousel.Caption>

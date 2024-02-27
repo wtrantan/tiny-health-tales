@@ -35,22 +35,8 @@ export default function Home() {
       <NavBar page="Home" />
       <Carousels />
       <div className="Home">
-<<<<<<< HEAD
-        <div className="Home block1">
-          <div className="Home title">
-            <h3>News<button className="Home see-more"><a href="/News">More</a></button></h3>
-            <hr className="Home divider" />
-          </div>
-          <div className="Home block1 image-grid">
-            <img src={event} alt="Image 1 Description" />
-            <img src={Group1} alt="Image 2 Description" />
-            <img src={event} alt="Image 3 Description" />
-          </div>
-        </div>
-=======
         {/* <div className="Content">Content for Main Page Here</div> */}
         
->>>>>>> cc66fef5cfcbce08e873ea685fe1a0618bd129b9
         <div className="Home block2">
           <div className="Home title">
             <h3>Videos<button className="Home see-more"><a href="/Videos">More</a></button></h3>
