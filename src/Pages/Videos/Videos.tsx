@@ -8,8 +8,8 @@ export default function Videos() {
   const videos = [
     { width: "100%", height: "100%", src: 'TnQlUrk2vKM', title: 'Tiny Health Tales: Flu Awareness' },
     { width: "100%", height: "100%", src: '8SMLO9kCAH4', title: 'Tiny Health Tales: Understanding Diabetes' },
-    { width: "100%", height: "100%", src: 'fUKM5fX8VZU', title: 'Tiny Health Tales Presents: Keeping our Mouths Clean and Healthy' },
-    { width: "100%", height: "100%", src: 'Q4BGOZNXxkE', title: 'Cleaning and Healing Owies' },
+    { width: "100%", height: "100%", src: 'fUKM5fX8VZU', title: 'In Progress' },
+    { width: "100%", height: "100%", src: 'Q4BGOZNXxkE', title: 'In Progress' },
   ];
 
   return (

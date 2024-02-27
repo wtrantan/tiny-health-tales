@@ -1,10 +1,32 @@
 div.divider {
   border: 2px solid black;
   margin: 0rem 25rem;
+  
 }
 
-.cardRows {
+.About.cardRows {
   display: flex;
   flex-flow: row;
+  justify-content: center;
 
+
+
+}
+.About h1{
+  margin-top: 20px;
+  font-size: 1.4rem;
+  text-align: center;
+}
+.About p{
+  font-family: "Lato";
+  font-size: 1rem;
+ 
+  margin: 0 25%;
+  padding: 0%;
+  color: black;
+  text-align: center;
+
+}
+.About.background {
+  background-color: #d4ede4;
 }

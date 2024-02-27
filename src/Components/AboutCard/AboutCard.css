@@ -4,6 +4,7 @@
   width: 1.625rem;
   color: white;
   font-weight: 1000;
+  
 }
 
 .rotateButton {
@@ -11,6 +12,7 @@
   justify-content: center;
   align-items: center;
   rotate: 90deg;
+  
 }
 
 .inactive {
@@ -35,6 +37,7 @@
   height: 100%;
   justify-content: right;
   align-items: right;
+  
 }
 
 div.all {
@@ -43,20 +46,49 @@ div.all {
   flex-flow: column;
   margin: 5rem;
   align-items: center;
+ 
+  
 }
 
+
 .picture {
+  display:flex;
+  justify-content: center;
   border: 1px solid black;
+  border-radius: 50%;
+  width:250px;
+  object-fit: cover;
+  
+  
 }
-.picture,
-.name,
-.activeCard,
-.inactive,
-p {
+
+
+.name, .name p {
   width: 15rem;
-  font-family: "Times New Roman";
-  font-size: 1.4rem;
+  font-family: "Lato";
+  font-size: 1rem;
+  font-weight: bold;
   margin: 0%;
   padding: 0%;
   color: black;
+  text-align: center;
+  
+}
+.title{
+  width: 15rem;
+  font-family: "Lato";
+  font-size: 1rem;
+  margin: 0%;
+  padding: 0%;
+  color: black;
+  text-align: center;
+}
+.email{
+  width: 15rem;
+  font-family: "Lato";
+  font-size: 1rem;
+  margin: 0%;
+  padding: 0%;
+  color: black;
+  text-align: center;
 }

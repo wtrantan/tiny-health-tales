@@ -5,12 +5,16 @@ import Footer from "../../Components/Footer/Footer.tsx";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Flyers.css";
 import flu from "../../Assets/Flyers/Flu_Awareness_For_All_FLYER.png";
+import flu_es from "../../Assets/Flyers/Espanol_Flu_Awareness_For_All-1.png";
 import diabetes from "../../Assets/Flyers/All About Diabetes.png";
+import diabetes_es from "../../Assets/Flyers/All_About_Diabetes_Spanish-1.png";
 
 export default function Flyers() {
   const flyers = [
-    { src: flu, title: 'Flu', width: "100%", height: "100%" },
-    { src: diabetes, title: 'Diabetes', width: "100%", height: "100%" }
+    { src: flu, title: 'Flu Awareness', width: "100%", height: "100%" },
+    { src: diabetes, title: 'Understanding Diabetes', width: "100%", height: "100%" },
+    { src: flu_es, title: 'Conocimiento Sobre la Gripe', width: "100%", height: "100%" },
+    { src: diabetes_es, title: 'Entendiendo la Diabetes', width: "100%", height: "100%" }
   ];
 
   return (

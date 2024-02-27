@@ -6,6 +6,8 @@ interface Props {
   name: string;
   information: string;
   image: string;
+  title: string;
+  email: string;
 }
 
 export default function AboutCard(prop: Props) {
@@ -15,12 +17,9 @@ export default function AboutCard(prop: Props) {
     <div className="all">
       <img className="picture" src={prop.image} />
       <h1 className="name">{prop.name}</h1>
-      <a href="javascript:void(0)" className="activeCard" onClick={() => setActive(!active)}>
-        <div className={active ? "rotateButton" : "activeCard"}>
-          <p className="gt">&gt;</p>
-        </div>
-      </a>
-      <p className={active ? "active" : "inactive"}>{prop.information}</p>
+      <h1 className="title">{prop.title}</h1>
+      <h1 className="email">{prop.email}</h1>
+      
     </div>
   );
 }
