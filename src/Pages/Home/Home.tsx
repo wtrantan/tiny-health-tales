@@ -19,7 +19,7 @@ export default function Home() {
     { width: "100%", height: "100%", src: '8SMLO9kCAH4', title: 'Understanding Diabetes' },
     { width: "100%", height: "100%", src: 'fUKM5fX8VZU', title: 'In Progress' },
     { width: "100%", height: "100%", src: 'Q4BGOZNXxkE', title: 'In Progress' },
-    
+
 
   ];
   const flyers = [
@@ -35,16 +35,15 @@ export default function Home() {
       <NavBar page="Home" />
       <Carousels />
       <div className="Home">
-        {/* <div className="Content">Content for Main Page Here</div> */}
         <div className="Home block1">
           <div className="Home title">
             <h3>News<button className="Home see-more"><a href="/News">More</a></button></h3>
             <hr className="Home divider" />
           </div>
           <div className="Home block1 image-grid">
-          <img src={event} alt="Image 1 Description"/>
-          <img src={Group1} alt="Image 2 Description"/>
-          <img src={event} alt="Image 3 Description"/>
+            <img src={event} alt="Image 1 Description" />
+            <img src={Group1} alt="Image 2 Description" />
+            <img src={event} alt="Image 3 Description" />
           </div>
         </div>
         <div className="Home block2">
