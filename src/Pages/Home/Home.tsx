@@ -36,17 +36,7 @@ export default function Home() {
       <Carousels />
       <div className="Home">
         {/* <div className="Content">Content for Main Page Here</div> */}
-        <div className="Home block1">
-          <div className="Home title">
-            <h3>News<button className="Home see-more"><a href="/News">More</a></button></h3>
-            <hr className="Home divider" />
-          </div>
-          <div className="Home block1 image-grid">
-          <img src={event} alt="Image 1 Description"/>
-          <img src={Group1} alt="Image 2 Description"/>
-          <img src={event} alt="Image 3 Description"/>
-          </div>
-        </div>
+        
         <div className="Home block2">
           <div className="Home title">
             <h3>Videos<button className="Home see-more"><a href="/Videos">More</a></button></h3>
@@ -68,6 +58,17 @@ export default function Home() {
                 <Gallery src={flyer.src} title={flyer.title} width={flyer.width} height={flyer.height} />
               ))}
             </div>
+          </div>
+        </div>
+        <div className="Home block1">
+          <div className="Home title">
+            <h3>News<button className="Home see-more"><a href="/News">More</a></button></h3>
+            <hr className="Home divider" />
+          </div>
+          <div className="Home block1 image-grid">
+          <img src={event} alt="Image 1 Description"/>
+          <img src={Group1} alt="Image 2 Description"/>
+          <img src={event} alt="Image 3 Description"/>
           </div>
         </div>
       </div>

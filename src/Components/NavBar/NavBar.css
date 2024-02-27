@@ -41,6 +41,7 @@
 }
 
 .NavBar.lower{
+  position: sticky;
   display: flex;
   background-color: #1e4068;
   grid-auto-flow: column;
