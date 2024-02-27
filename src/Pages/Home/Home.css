@@ -57,7 +57,7 @@ padding: 10px 50px;
   width: 50%; /* Adjust width as needed */
   display: flex;
   flex-wrap: wrap;
-  margin: 10px auto; /* Adds some margin for spacing */
+  margin: 0px auto; /* Adds some margin for spacing */
   justify-content: center;
  
 

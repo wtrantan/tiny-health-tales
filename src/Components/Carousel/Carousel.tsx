@@ -13,7 +13,7 @@ export default function Carousels() {
   return (
     <>
       <div className="back">
-        <Carousel activeIndex={index} onSelect={handleSelect}>
+        <Carousel col={3} row={1} activeIndex={index} onSelect={handleSelect}>
           <Carousel.Item>
             <img id='firstImage' className="" src={FluImage} text="First slide" />
             <Carousel.Caption>
