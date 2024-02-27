@@ -8,23 +8,25 @@ import Gallery from "../../Components/Gallery/Gallery.tsx";
 import "../Videos/Videos.css";
 import "../Flyers/Flyers.css";
 import event from "../../Assets/News/THT_Event.jpg"
-import flu from "../../Assets/Flyers/Flu_Awareness_For_All_FLYER.png";
+import flu from "../../Assets/Flyers/Flu_Awareness_For_All.png";
 import diabetes from "../../Assets/Flyers/All About Diabetes.png";
+import flu_es from "../../Assets/Flyers/Espanol_Flu_Awareness_For_All-1.png";
 
+import diabetes_es from "../../Assets/Flyers/All_About_Diabetes_Spanish-1.png";
 export default function Home() {
   const videos = [
-    { width: "100%", height: "100%", src: 'TnQlUrk2vKM', title: 'Tiny Health Tales: Flu Awareness' },
-    { width: "100%", height: "100%", src: '8SMLO9kCAH4', title: 'Tiny Health Tales: Understanding Diabetes' },
-    { width: "100%", height: "100%", src: 'fUKM5fX8VZU', title: 'Tiny Health Tales Presents: Keeping our Mouths Clean and Healthy' },
-    { width: "100%", height: "100%", src: 'Q4BGOZNXxkE', title: 'Cleaning and Healing Owies' },
+    { width: "100%", height: "100%", src: 'TnQlUrk2vKM', title: 'Flu Awareness' },
+    { width: "100%", height: "100%", src: '8SMLO9kCAH4', title: 'Understanding Diabetes' },
+    { width: "100%", height: "100%", src: 'fUKM5fX8VZU', title: 'In Progress' },
+    { width: "100%", height: "100%", src: 'Q4BGOZNXxkE', title: 'In Progress' },
     
 
   ];
   const flyers = [
     { src: flu, title: 'Flu', width: "100%", height: "100%" },
     { src: diabetes, title: 'Diabetes', width: "100%", height: "100%" },
-    { src: diabetes, title: 'Diabetes', width: "100%", height: "100%" },
-    { src: diabetes, title: 'Diabetes', width: "100%", height: "100%" },
+    { src: flu_es, title: 'Diabetes', width: "100%", height: "100%" },
+    { src: diabetes_es, title: 'Diabetes', width: "100%", height: "100%" },
 
   ];
 
@@ -33,10 +35,10 @@ export default function Home() {
       <NavBar page="Home" />
       <Carousels />
       <div className="Home">
-        <div className="Content">Content for Main Page Here</div>
+        {/* <div className="Content">Content for Main Page Here</div> */}
         <div className="Home block1">
           <div className="Home title">
-            <h3>News<button className="Home see-more"><a href="/News">See More</a></button></h3>
+            <h3>News<button className="Home see-more"><a href="/News">More</a></button></h3>
             <hr className="Home divider" />
           </div>
           <div className="Home block1 image-grid">
@@ -47,7 +49,7 @@ export default function Home() {
         </div>
         <div className="Home block2">
           <div className="Home title">
-            <h3>Videos<button className="Home see-more"><a href="/Videos">See More</a></button></h3>
+            <h3>Videos<button className="Home see-more"><a href="/Videos">More</a></button></h3>
 
             <hr className="Home divider" />
             <div className="Home Videos body">
@@ -59,7 +61,7 @@ export default function Home() {
         </div>
         <div className="Home block2">
           <div className="Home title">
-            <h3>Flyers<button className="Home see-more"><a href="/Flyers">See More</a></button></h3>
+            <h3>Flyers<button className="Home see-more"><a href="/Flyers">More</a></button></h3>
             <hr className="Home divider" />
             <div className="Home Flyer body">
               {flyers.map((flyer) => (

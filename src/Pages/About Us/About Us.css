@@ -3,10 +3,10 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background-color: #caeadf;
+  
   .title{
     font-size: xx-large;
-    background-color: #1e4068;
+    background-color: transparent;
     margin-bottom: 20px;
     font-weight:bolder;
   }
@@ -33,3 +33,5 @@
     margin: 20px;
   }
 }
+
+/*#1e4068 #e9f7f5 #caeadf*/

@@ -4,7 +4,7 @@ import Gallery from "../../Components/Gallery/Gallery.tsx";
 import Footer from "../../Components/Footer/Footer.tsx";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Flyers.css";
-import flu from "../../Assets/Flyers/Flu_Awareness_For_All_FLYER.png";
+import flu from "../../Assets/Flyers/Flu_Awareness_For_All.png";
 import flu_es from "../../Assets/Flyers/Espanol_Flu_Awareness_For_All-1.png";
 import diabetes from "../../Assets/Flyers/All About Diabetes.png";
 import diabetes_es from "../../Assets/Flyers/All_About_Diabetes_Spanish-1.png";
@@ -20,6 +20,7 @@ export default function Flyers() {
   return (
     <>
       <NavBar page="Flyers" />
+     
       <h1 className="Flyer title">Flyers</h1>
 
       <div className="Flyer body">

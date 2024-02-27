@@ -2,8 +2,10 @@
   display: flex;
   transition: all 0.2s ease-in-out;
   justify-content:flex-end;
+  
   .video{
     pointer-events: none;
+
   }
   .title{
     height: 50px;
@@ -38,6 +40,7 @@
 .modal-content.video{
   width: 896px;
   height: 505px;
+  
 }
 
 .modal-body{

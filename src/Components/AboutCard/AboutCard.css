@@ -12,10 +12,10 @@
   .picture{
     width: 80%;
     border-radius: 50%;
-    padding: 5px;
+    padding: 3px;
     margin: 20px;
     margin-top: 30px;
-    background-color: #caeadf;
+    background-color: black;
     box-shadow:none;
   }
   .name{

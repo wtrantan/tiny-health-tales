@@ -8,7 +8,7 @@ div.Content {
 /*Block 1*/
 
 .Home.block1 {
-  background-color: #ffffff;
+  
   
 }
 .Home.title{
@@ -36,25 +36,28 @@ padding: 10px 50px;
 .Home.see-more {
  text-align: right;
   font-size: 15px;
-  background-color: transparent;
+  background-color: #1e4068;
   color: #333; /* Adjust button text color if needed */
   padding: 1px 5px;
   cursor: pointer;
   margin-left:5px;
   border-radius: 5px;
+  border: solid black 2px;
+  font-style: none;
 }
-.Home.see-more:hover {
-  text-decoration: underline;
-  color:#2aa5cd;
+.Home.see-more:hover a {
+ 
+  color:#caeadf;
+}
+.Home.see-more:hover  {
+  
+  background-color: #2aa5cd;
 }
 .Home a{
-  color:black;
+  color:#caeadf;
   text-decoration: none;
 }
-.Home a:hover{
-  color:#2aa5cd;
-  text-decoration: underline;
-}
+
 .Home.block1.image-grid {
   width: 50%; /* Adjust width as needed */
   display: flex;
